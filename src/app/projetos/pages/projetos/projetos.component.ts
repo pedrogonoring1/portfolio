@@ -20,56 +20,56 @@ export class ProjetosComponent implements OnInit {
   public instanciarMeusProjetos(): void {
     var project1 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project2 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project3 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project4 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project5 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project6 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project7 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project8 = new Project({
       Nome: 'Mestre Cuca',
-      UrlImage: '../../../../assets/mestre-cuca.png',
+      UrlImage: 'assets/mestre-cuca.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
