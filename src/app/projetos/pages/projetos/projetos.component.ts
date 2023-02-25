@@ -26,17 +26,17 @@ export class ProjetosComponent implements OnInit {
     });
 
     var project2 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
-      UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
-      Alt: 'Site de Culinaria Mestre Cuca'
+      Nome: 'Format',
+      UrlImage: 'assets/cnpj-format.png',
+      UrlProject: 'https://pedrogonoring1.github.io/cnpj-format-site/',
+      Alt: 'Projeto de Formatação de CPNJ'
     });
 
     var project3 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
-      UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
-      Alt: 'Site de Culinaria Mestre Cuca'
+      Nome: 'Lib Hyper Angular',
+      UrlImage: 'assets/hyper-angular.png',
+      UrlProject: 'https://www.npmjs.com/package/hyper-angular',
+      Alt: 'Site da biblioteca de Hyper Angular'
     });
 
     var project4 = new Project({
