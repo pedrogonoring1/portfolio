@@ -1,0 +1,52 @@
+:host {
+  display:block;
+  background-color: #383838;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.contact-head {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-head-email {
+  color: #44DA77;
+  cursor: pointer;
+}
+
+.contact-animation :hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+.title-developer {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.last-name {
+  font-weight: 100;
+}
+
+.paragraph-developer {
+  color: #D7D7D7;
+}
+
+.img-developer-md {
+ width: 450px;
+}
+
+.info-experience {
+  font-size: 35px;
+  color: #44DA77;
+  font-weight: bold;
+}
+
+.label-experience {
+  font-size: 10px;
+  color: #d4d4d4;
+  margin-left: 5px;
+}
