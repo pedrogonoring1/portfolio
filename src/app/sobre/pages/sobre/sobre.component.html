@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="title-about">Sobre Mim</h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <div class="row mt-5">
+        <div class="col-12 col-md-8">
+          <p class="text-about">
+            Sou graduado em Sistemas de Informação, atualmente trabalhando na
+            <a class="link-external" href="https://www.autoglass.com.br/" target="_blank">Autoglass,</a>
+            na área de desenvolvimento de software como Full Stack.
+            Tenho domínio sobre o Scrum, onde é a metodologia utilizada pela minha equipe.
+            Adoro criar sistemas web com boa responsividade e de alta escalabilidade,
+            tanto na parte do front-end, back-end até a realização do deploy.
+
+          </p>
+          <p class="text-about">
+            <strong>Curiosidade:</strong> já participei de hackathons onde pude trabalhar em equipe e desenvolver soluções
+            tecnologicas. <a class="link-external" href="https://app.shawee.io/@pedrohenriquegonorin" target="_blank">Perfil Shawee.</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12">
+          <h5 class="title-secundary">Minha Formação Profissional</h5>
+        </div>
+        <div class="col-12">
+          <img src="../../../../assets/uvv-alura.png" alt="Logo Universidade Vila Velha" class="img-fluid img-academy">
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="row mt-5">
+        <div class="col-12">
+          <h5 class="title-secundary">Minhas Skills</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-9">
+          <div class="row mb-1" *ngFor="let skill of minhasSkills">
+            <div class="col-9 mt-1">
+              <div class="progress-skil-base">
+                <div class="progress-skil-fill" [style.width]="skill.NivelHabilidade"></div>
+              </div>
+            </div>
+            <div class="col-3">
+              <label class="text-skil">{{skill.Nome}}</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

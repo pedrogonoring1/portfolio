@@ -3,8 +3,8 @@
   background-color: #383838;
   padding-top: 70px;
   padding-bottom: 70px;
-  padding-left: 30px;
-  padding-right: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .contact-head {
@@ -40,7 +40,7 @@
 }
 
 .info-experience {
-  font-size: 35px;
+  font-size: 30px;
   color: #44DA77;
   font-weight: bold;
 }

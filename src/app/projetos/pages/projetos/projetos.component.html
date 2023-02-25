@@ -1,0 +1,30 @@
+<div class="container">
+
+  <div class="row text-center">
+    <div class="col-12">
+      <h3 class="title-section">Meus Projetos</h3>
+    </div>
+  </div>
+
+  <div class="row mt-5 text-center">
+      <div class="col-6 col-md-3 mb-5" *ngFor="let project of myProjects">
+        <div class="row" >
+          <div class="col-12">
+            <a [href]="project.UrlProject" target="_blank"><img [src]="project.UrlImage" [alt]="project.Alt" class="img-fluid img-project"></a>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12 mt-1">
+            <label class="text-name-project">{{project.Nome}}</label>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-12">
+        <a href="https://github.com/pedrogonoring1/" target="_blank"><button class="btn btn-dark btn-see-all" type="button">VER TODOS</button></a>
+    </div>
+  </div>
+
+</div>

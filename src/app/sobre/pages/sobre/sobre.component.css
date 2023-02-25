@@ -1,0 +1,47 @@
+:host {
+  display:block;
+  background-color: #474646;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.title-about {
+  color: #44DA77;
+}
+
+.text-about {
+  color: #b8b7b7;
+}
+
+.title-secundary {
+  color: #969696;
+}
+
+.img-academy {
+  width: 200px;
+}
+
+.progress-skil-base {
+  width: 100%;
+  height: 18px;
+  background-color: #706C6C;
+  border-radius: 50px;
+}
+
+.progress-skil-fill {
+  height: 18px;
+  background-color: #44DA77;
+  border-radius: 50px;
+}
+
+.progress-skil-fill:hover {
+  background-color: #32a859;
+
+}
+
+.text-skil {
+  color: #ffffff;
+  margin-left: -10px;
+}

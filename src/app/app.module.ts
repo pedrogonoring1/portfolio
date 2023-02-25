@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { IntroducaoComponent } from './introducao/pages/introducao/introducao.component';
+import { SobreComponent } from './sobre/pages/sobre/sobre.component';
+import { ProjetosComponent } from './projetos/pages/projetos/projetos.component';
+import { ContatoComponent } from './contato/pages/contato/contato.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroducaoComponent
+    IntroducaoComponent,
+    SobreComponent,
+    ProjetosComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
