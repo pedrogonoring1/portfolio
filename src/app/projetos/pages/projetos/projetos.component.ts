@@ -40,36 +40,36 @@ export class ProjetosComponent implements OnInit {
     });
 
     var project4 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
-      UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
-      Alt: 'Site de Culinaria Mestre Cuca'
+      Nome: 'Dev View',
+      UrlImage: 'assets/dev-view.png',
+      UrlProject: 'https://pedrogonoring1.github.io/div-view-site/',
+      Alt: 'Blog de conteúdo de desenvolvimento de software'
     });
 
     var project5 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
-      UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
-      Alt: 'Site de Culinaria Mestre Cuca'
+      Nome: 'App Meally (Protótipo)',
+      UrlImage: 'assets/meally.png',
+      UrlProject: 'https://github.com/pedrogonoring1/meally-prototype',
+      Alt: 'Protótipo de um aplicativo para reservas de restaurante'
     });
 
     var project6 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
+      Nome: 'Adicionar',
+      UrlImage: 'assets/outlier.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project7 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
+      Nome: 'Adicionar',
+      UrlImage: 'assets/outlier.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
 
     var project8 = new Project({
-      Nome: 'Mestre Cuca',
-      UrlImage: 'assets/mestre-cuca.png',
+      Nome: 'Adicionar',
+      UrlImage: 'assets/outlier.png',
       UrlProject: 'https://github.com/pedrogonoring1/mestre-cuca-site',
       Alt: 'Site de Culinaria Mestre Cuca'
     });
