@@ -1,11 +1,29 @@
 :host {
   display:block;
   background-color: #383838;
-  padding-top: 60px;
   padding-bottom: 70px;
+  padding-top: 30px;
   padding-left: 25px;
   padding-right: 20px;
   height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-aux {
+  margin-left: -40px;
+}
+
+@media (max-width: 760px) {
+  :host {
+    height: auto;
+  }
+
+  .icon-aux {
+    margin-left: 10px;
+  }
 }
 
 .contact-head {
@@ -17,6 +35,8 @@
   color: #44DA77;
   cursor: pointer;
 }
+
+
 
 .contact-animation :hover {
   opacity: 50%;
@@ -37,7 +57,7 @@
 }
 
 .img-developer-md {
- width: 450px;
+ width: 380px;
 }
 
 .info-experience {

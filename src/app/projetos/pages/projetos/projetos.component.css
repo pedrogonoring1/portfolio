@@ -5,6 +5,17 @@
   padding-bottom: 70px;
   padding-left: 30px;
   padding-right: 30px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  :host {
+    height: auto;
+  }
 }
 
 .title-section {
